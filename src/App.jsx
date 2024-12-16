@@ -1,10 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import {Stack, TextField } from '@mui/material'
-import { ClassNames } from '@emotion/react'
-import { getOpacity } from '@mui/material/styles/createColorScheme'
-import { dark, light } from '@mui/material/styles/createPalette'
 
 function App() {
   const [amount, setAmount] = useState("")
